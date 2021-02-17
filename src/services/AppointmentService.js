@@ -109,7 +109,7 @@ class AppointmentService {
           
             if(!app.notified){
 
-               await Appo.findOneAndUpdate(app.id,{notified: true})
+               await Appo.findByIdAndUpdate(app.id,{notified: true})
 
                 transporter.sendMail({
                     from: "Cesar Augusto <cesar@curso.com>",
