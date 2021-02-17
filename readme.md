@@ -1,5 +1,5 @@
 <h1 align="center" style="text-align: center; font-weight: bold;">Calendar + MongoDB</h1>
-<p align="center">Plataforma de agendamento generico utilizando nodeJS e MongoDB. Essa plataforma trabalha com envio de e-mail agendados. Faltando 1hr para a consulta é enviado um e-mail de lembrete para o paciênte.  </p>
+<p align="center">Plataforma de agendamento generico utilizando nodeJS e MongoDB. Essa plataforma trabalha com envios de e-mail agendados. Faltando 1hr para a consulta é enviado um e-mail de lembrete para o paciênte.  </p>
 
 ## Demo 📸
 
@@ -19,7 +19,8 @@ Tecnologias usadas na construção do projeto:
 - [Express](https://expressjs.com/)
 - [mongoose](https://mongoosejs.com/)
 - [nodemailer](https://nodemailer.com/about/)
-- [sucrase-register](https://github.com/alangpierce/sucrase)
+- [FullCalendar](https://fullcalendar.io/)
+- [jQuery Mask Plugin](https://igorescobar.github.io/jQuery-Mask-Plugin/)
 
 ---
 
