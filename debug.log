@@ -1,0 +1,7 @@
+[0106/144243.643:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acesso negado. (0x5)
+[0106/144243.662:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0106/144243.681:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acesso negado. (0x5)
+[0106/144303.899:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acesso negado. (0x5)
+[0106/144303.903:ERROR:exit_code_watcher_win.cc(87)] Failed to wait for process exit or stop event
+[0106/144303.915:ERROR:registration_protocol_win.cc(130)] TransactNamedPipe: O pipe foi finalizado. (0x6D)
+[0106/144303.918:ERROR:file_io_win.cc(180)] CreateFile C:\Program Files (x86)\temp\settings.dat: Acesso negado. (0x5)
