@@ -1,0 +1,51 @@
+body .meu_menu {
+  position: absolute;
+  left: 14.8%;
+  right: 73.2%;
+  top: 16.35%;
+  bottom: 16.35%;
+
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(30px);
+}
+
+h1 {
+  position: absolute;
+  height: 31px;
+  left: 16.85%;
+  right: 81.32%;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 26px;
+  line-height: 30px;
+
+  color: #758095;
+}
+
+body .menu > li {
+  position: relative;
+  height: 630px;
+  left: 1.75%;
+  right: 77.45%;
+  top: 100px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  /* font-size: 28px; */
+  line-height: 30px;
+
+  list-style-type: none;
+  display: inline;
+  font-size: 20px;
+
+  color: #1a2d54;
+}
+
+/* body .menu > li {
+  list-style-type: none;
+  display: inline;
+  font-size: 15px;
+} */

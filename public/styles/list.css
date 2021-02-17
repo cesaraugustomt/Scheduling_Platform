@@ -1,0 +1,52 @@
+body {
+  position: absolute;
+  left: 26.8%;
+  right: 34.83%;
+  top: 16.35%;
+  bottom: 16.35%;
+
+  background: #ffffff;
+}
+
+h3 {
+  position: absolute;
+  height: 43px;
+  left: 30.3%;
+  right: 63.62%;
+  /* top: calc(50% - 43px / 2 - 793px); */
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 42px;
+
+  color: #243d6f;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #f3f3f3;
+  margin: 1em 0;
+  padding: 0;
+}
+
+body .text {
+  position: absolute;
+  left: 33.67%;
+  right: 38.33%;
+  top: 28.83%;
+  bottom: 66.52%;
+}
+
+form {
+  position: absolute;
+  left: 58.53%;
+  right: 40.72%;
+  top: 19.61%;
+  bottom: 79.27%;
+
+  border: 2px solid #8998b4;
+}

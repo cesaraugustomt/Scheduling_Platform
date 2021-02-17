@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+
+    <style>
+    body .top {
+  position: absolute;
+  width: 1583px;
+  height: 144px;
+  left: 0px;
+  top: 0px;
+
+  background: #28262e;
+}
+
+.top h2 {
+  position: absolute;
+  width: 142px;
+  height: 52px;
+  left: 664.6px;
+  top: 44px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #f4ede8;
+}
+      
+
+.container {
+    
+position: absolute;
+height: 88px;
+left: 17.78%;
+right: 44.44%;
+top: 300px;
+
+}
+
+.container > h1 {
+
+
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: 500;
+font-size: 36px;
+line-height: 47px;
+}
+
+.container > h4 {
+
+ font-family: Roboto Slab;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 26px;
+
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #f3f3f3;
+  margin: 1em 0;
+  padding: 0;
+}
+
+button {
+width: 340px;
+height: 50px;
+
+background: #FF9000;
+border-radius: 10px;
+
+font-family: Roboto ;
+font-style: 500;
+font-weight: bold;
+font-size: 16px;
+line-height: 21px;
+text-align: center;
+
+
+color: #312E38;
+
+cursor: pointer;
+}
+
+.back {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 144px;
+  top: 47px;
+}
+
+    </style>
+
+    <title>event</title>
+</head>
+
+    
+    <div class="top">
+        <h2>Full Calendar</h2>
+    </div>
+
+    
+    <div class="container"> 
+
+
+        <h1>Consulta: <%= appo.description %> </h1>
+        <hr>
+        <h4>Paciente: <%= appo.name %> </h4>
+        <h4>Email: <%= appo.email %> </h4>
+        <h4>CPF: <%= appo.cpf %> </h4>
+        <hr>
+        <% if(appo.finished == false ){ %>
+            <form action="/finish" method="post">
+                <input type="hidden" name="id" value="<%= appo._id %>">
+                <button>Finalizar consulta</button>
+            </form>
+            
+        <% } %>
+
+       
+    </div>
+
+
+
+</html>
+
+
+
+
+
+
+
+
+

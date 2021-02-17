@@ -1,0 +1,117 @@
+body .top {
+  position: absolute;
+  width: 1583px;
+  height: 144px;
+  left: 0px;
+  top: 0px;
+
+  background: #28262e;
+}
+
+.top h2 {
+  position: absolute;
+  width: 142px;
+  height: 52px;
+  left: 664.6px;
+  top: 44px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #f4ede8;
+}
+
+.container > h1 {
+  position: absolute;
+  width: 98px;
+  height: 26px;
+  left: 550px;
+  top: 269px;
+
+  font-family: Roboto Slab;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+
+  /* color: #f4ede8; */
+}
+
+.container #name {
+  position: absolute;
+  width: 340px;
+  height: 56px;
+  left: 550px;
+  top: 319px;
+
+  /* border-radius: 5px; */
+}
+
+.container #email {
+  position: absolute;
+  width: 340px;
+  height: 56px;
+  left: 550px;
+  top: 383px;
+}
+
+.container #description {
+  position: absolute;
+  width: 340px;
+  height: 56px;
+  left: 550px;
+  top: 447px;
+}
+
+.container #cpf {
+  position: absolute;
+  width: 340px;
+  height: 56px;
+  left: 550px;
+  top: 511px;
+}
+
+.container #date {
+  position: absolute;
+  width: 340px;
+  height: 56px;
+  left: 550px;
+  top: 575px;
+}
+
+.container #time {
+  position: absolute;
+  width: 340px;
+  height: 56px;
+  left: 550px;
+  top: 639px;
+}
+
+.container #button {
+  position: absolute;
+  width: 340px;
+  height: 50px;
+  left: 550px;
+  top: 719px;
+
+  background: #28262e;
+  color: #f4ede8;
+  border-radius: 10px;
+}
+
+.container {
+  position: absolute;
+
+  top: -60px;
+}
+
+body .back {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 144px;
+  top: 47px;
+}

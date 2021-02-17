@@ -1,0 +1,163 @@
+body {
+  background: #312e38;
+}
+
+body .calendario {
+  position: absolute;
+  width: 1100px;
+  height: 613px;
+  left: 420px;
+  top: 38px;
+
+  border-radius: 5px;
+  background: #ffffff;
+  font-family: "Roboto", sans-serif;
+}
+
+.logo h2 {
+  position: absolute;
+  width: 142px;
+  height: 52px;
+  left: 433.6px;
+  top: 42px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 26px;
+
+  color: #f4ede8;
+}
+
+body .fc-toolbar-title {
+  position: absolute;
+  height: 38px;
+  left: 423px;
+  top: 13px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 46px;
+
+  text-transform: uppercase;
+
+  color: #28262e;
+}
+
+body .meu_menu {
+  overflow: auto;
+  position: absolute;
+  width: 363px;
+  height: 613px;
+  left: 5px;
+  top: 38px;
+
+  border-radius: 5px;
+
+  background: #ffff;
+  /* box-shadow: 0px 4px 24px rgba(255, 51, 102, 0.3); */
+}
+
+body .meu_menu::-webkit-scrollbar {
+  display: none;
+}
+
+.event {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  left: 161px;
+  top: 632px;
+
+  background: #ff9000;
+  border-radius: 200px;
+}
+
+.text h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #666360;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #f3f3f3;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.text h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #ff3366;
+}
+
+.meu_menu > h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+
+  text-transform: uppercase;
+
+  color: #232129;
+}
+
+.icone {
+  position: absolute;
+  width: 23.5px;
+  height: 17px;
+  top: 10px;
+  left: 6px;
+
+  border: 2px #ff3366;
+}
+
+.icone_top {
+  position: absolute;
+  width: 18px;
+  height: 37px;
+  left: 9.3px;
+
+  border: 2px #ff3366;
+}
+
+form #search {
+  position: absolute;
+  width: 316px;
+  height: 31px;
+  top: 45px;
+
+  border: 1px, solid #ff3366;
+}
+
+/* form button {
+  position: absolute;
+  width: 122px;
+  height: 30px;
+  left: 237px;
+  top: 47px;
+} */
+
+form a > img {
+  position: absolute;
+  width: 174px;
+  height: 19px;
+  left: 209px;
+  top: 51px;
+
+  /* transform: matrix(-1, 0, 0, 1, 0, 0); */
+}

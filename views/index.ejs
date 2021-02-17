@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema</title>
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+
+    
+
+    <link href='main.css' rel='stylesheet' /> 
+    <link href='./styles/index.css' rel='stylesheet' />
+    <script src=main.js></script>
+</head>
+
+<body>
+    <div id="calendar" class="calendario"></div>
+
+      <div class="logo">
+        <h2>Full Calendar</h2>
+      </div>
+
+    <div class="meu_menu" >
+
+      
+            <h3>Consultas: </h3>
+            <hr>
+            <form id="list" action="/searchresult" method="get">
+                <input type="search" name="search" id="search" placeholder="Digite o e-mail ou o CPF do cliente">
+
+               <a href=""><img src="./img/search.svg" alt="search-icon"></a>
+               
+            </form>
+        
+              <div class="text">  
+                <% appos.forEach(appo => { %>
+            
+                    <h1>Consulta: <%= appo.description %> </h1> 
+                    <h4>Paciente: <%= appo.name %> </h4>
+                    <h4>Email: <%= appo.email %> </h4>
+                    <h4>CPF: <%= appo.cpf %> </h4>
+                    <hr>
+                
+                <% }) %>
+        
+            </div>    
+             
+    </div>
+    <a class="event" type="submit" href="./register">
+    <img class="icone" src="img/more_01.svg" alt="more"/>
+    <img class="icone_top" src="img/more_02.svg" alt="more"/>
+</a>
+       
+    
+  
+</body>
+
+<script>
+
+    var element = document.getElementById("calendar")
+    var calendar = new FullCalendar.Calendar(element, {
+        initialView: 'dayGridMonth',
+        locale: 'pt-br',
+        events: 'getcalendar',
+        eventClick: function(info){
+           window.location.href = '/event/'+info.event.id
+        }
+  })
+
+  calendar.render()
+
+
+</script>
+
+</html>
