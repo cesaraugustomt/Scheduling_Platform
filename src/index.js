@@ -4,13 +4,11 @@ const bodyParser = require("body-parser")
 const mongoose = require("mongoose")
 const AppointmentService = require("./services/AppointmentService")
 
-
 app.use(express.static(__dirname + 'public'));
 
 //config
 app.use(express.static("public"))
 
-//config receber dados de formulários
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(bodyParser.json())
 

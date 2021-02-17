@@ -93,8 +93,8 @@ class AppointmentService {
         host: "smtp.mailtrap.io",
         port: 25,
         auth: {
-            user: "c2ed244e5b1900",
-            pass: "8b07790780ed75"
+            user: "seu user",
+            pass: "seu pass"
         }
     })
 
@@ -112,7 +112,7 @@ class AppointmentService {
                await Appo.findByIdAndUpdate(app.id,{notified: true})
 
                 transporter.sendMail({
-                    from: "Cesar Augusto <cesar@curso.com>",
+                    from: "Name <@curso.com>",
                     to: app.email,
                     subject: "Sua consulta vai acontecer em breve!",
                     text: "Sua consulta vai acontecer em 1hr!"
@@ -129,9 +129,6 @@ class AppointmentService {
       })
     
     }
-
-
-
 }
 
 
