@@ -1,4 +1,2 @@
-node_modules,
-.gitattributes,
-debug.log,
-nodemon.json
+node_modules
+
