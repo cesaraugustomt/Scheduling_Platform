@@ -7,6 +7,12 @@
   <img src="./github/agenda.gif" alt="demo-web" height="425">
 
 </div>
+<br>
+<div align="center" >
+<p> Esse é o e-mail que será recebido 1hr antés da consulta do paciente. </p>
+  <img src="./github/mailtrap.jpg" alt="demo-web" height="425">
+
+</div>
 
 ---
 
